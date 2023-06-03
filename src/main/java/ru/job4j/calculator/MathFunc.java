@@ -3,13 +3,11 @@ package ru.job4j.calculator;
 public class MathFunc {
 
     public static int func1(int x) {
-        x = x * x + 1;
-        return x;
+        return x * x + 1;
     }
 
     public static int func2(int x) {
-        x = 1 / x;
-        return x;
+        return 1 / x;
     }
 
     public static void main(String[] args) {
