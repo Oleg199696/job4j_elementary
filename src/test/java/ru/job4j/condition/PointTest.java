@@ -28,7 +28,7 @@ public class PointTest {
     }
 
     @Test
-    public void when00to00then2() {
+    public void when11to11then0() {
         int x1 = 1;
         int x2 = 1;
         int y1 = 1;
