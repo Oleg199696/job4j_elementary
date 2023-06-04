@@ -26,7 +26,7 @@ public class SqAreaTest {
     }
 
     @Test
-    public void whenP5K15ThenS15() {
+    public void whenP5K15ThenS15dot5() {
         int p = 5;
         double k = 1.5;
         double expected = 1.5;
