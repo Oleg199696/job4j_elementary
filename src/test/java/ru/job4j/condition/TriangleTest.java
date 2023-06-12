@@ -18,7 +18,7 @@ public class TriangleTest {
         double ab = 2.0;
         double ac = 0.0;
         double bc = 2.0;
-        boolean result = Triangle.isFalse(ab, ac, bc);
-        assertThat(result).isTrue();
+        boolean result = Triangle.exist(ab, ac, bc);
+        assertThat(result).isFalse();
     }
 }
