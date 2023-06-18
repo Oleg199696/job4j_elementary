@@ -69,7 +69,7 @@ public class MatrixCheckTest {
         char[][] input = {
                 {'1', ' ', ' '},
                 {' ', '1', ' '},
-                {' ', ' ', '2'},
+                {' ', ' ', '1'},
         };
         char[] result = MatrixCheck.extractDiagonal(input);
         char[] expected = {'1', '1', '1'};
